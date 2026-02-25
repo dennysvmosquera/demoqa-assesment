@@ -9,7 +9,7 @@ import { HandleSimpleAlert } from '../src/tasks/HandleSimpleAlert';
 import { OpenBrowserWindows } from '../src/tasks/OpenBrowserWindows';
 import { VerifyNewTabOpens } from '../src/tasks/VerifyNewTabOpens';
 
-test('Caso 4 - Alerts & Windows: aceptar alerta y abrir nueva pestaña', async ({ page }) => {
+test('Caso 4 - Section Alerts, Frame & Windows', async ({ page }) => {
 
   const actor = actorCalled('Dennys').whoCan(
     BrowseTheWebWithPlaywright.usingPage(page as any),
