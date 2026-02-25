@@ -32,13 +32,13 @@ The project follows the Screenplay Pattern:
 ## How to Run the Tests
 
 Install dependencies:
-npm install
+`npm install`
 
 Run all tests:
-npx playwright test
+`npx playwright test`
 
 Run a specific test:
-npx playwright test tests/case4-alerts-and-windows.spec.ts --headed
+`npx playwright test tests/case4-alerts-and-windows.spec.ts --headed`
 
 ## Automated Scenarios
 
