@@ -76,7 +76,7 @@ Run a specific test:
 
 After executing the automated tests, a Serenity BDD HTML report can be generated with the following steps:
 
-### 1️⃣ Run the tests
+### Run the tests
 
 ```bash
 npx playwright test
