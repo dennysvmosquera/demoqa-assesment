@@ -82,7 +82,8 @@ After executing the automated tests, a Serenity BDD HTML report can be generated
 npx playwright test
 target/site/serenity
 npx serenity-bdd run --source target/site/serenity --destination target/site/serenity
-target/site/serenity/index.html
+target/site/serenity/index.html 
+```
 
 ## Additional Notes
 
