@@ -1,4 +1,4 @@
-import { test } from '@playwright/test';
+import { test } from '@serenity-js/playwright-test';
 import { actorCalled } from '@serenity-js/core';
 
 import { HandleSimpleAlert } from '../src/tasks/HandleSimpleAlert';

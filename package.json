@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --loader ts-node/esm \"src/tests/**/*.ts\" --timeout 60000"
+    "test": "playwright test",
+    "report": "serenity-bdd report",
+    "clean": "rm -rf target"
   },
   "repository": {
     "type": "git",

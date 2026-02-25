@@ -9,10 +9,11 @@ export default defineConfig({
   },
   reporter: [
     [ '@serenity-js/playwright-test', {
-        crew: [
-          '@serenity-js/console-reporter'
-        ]
-      }
-    ]
+      crew: [
+        '@serenity-js/console-reporter',
+        '@serenity-js/serenity-bdd',
+        [ '@serenity-js/core:ArtifactArchiver', { outputDirectory: 'target/site/serenity' } ],
+      ],
+    }],
   ],
 });

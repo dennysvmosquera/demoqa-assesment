@@ -72,6 +72,18 @@ Run a specific test:
 
 ---
 
+## Serenity Report
+
+After executing the automated tests, a Serenity BDD HTML report can be generated with the following steps:
+
+### 1️⃣ Run the tests
+
+```bash
+npx playwright test
+target/site/serenity
+npx serenity-bdd run --source target/site/serenity --destination target/site/serenity
+target/site/serenity/index.html
+
 ## Additional Notes
 
 - XPath selectors were used in specific scenarios due to dynamic DOM behavior affecting CSS selector stability.
